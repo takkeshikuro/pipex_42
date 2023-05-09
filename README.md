@@ -2,8 +2,8 @@
 
 Pipex is a project that re-creates in C the way two commands are piped together via | in the shell
 
-``# ./pipex infile cmd1 cmd2 outfile\
-pipe()\
+`# ./pipex infile cmd1 cmd2 outfile`\
+`pipe()`\
  |\
  |-- fork()\
       |\
