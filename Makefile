@@ -12,8 +12,6 @@ LIBFLAGS = -g
 
 OBJS 	=  $(SRCS:.c=.o)
 
-# Color Codes 
-
 NC		:= \033[m
 B_RED	:= \033[1;31m
 RED 	:= \033[0;31m
