@@ -6,7 +6,7 @@ Pipex is a project that re-creates in C the way two commands are piped together 
 pipe()
  |
  |-- fork()
-      |\
+      |
       |-- child // cmd1
       :     |--dup2()
       :     |--close end[0]
